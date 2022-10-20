@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Qualifier("ModifyErrorMessage")
 public class ModifyErrorMessage implements MyModifyService {
     public Response modify(Response response) {
-        response.setErrorMessage("Что-то сломалось");
+        response.setErrorMessage("Что-то сломалось опять");
         return response;
     }
 }
